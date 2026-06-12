@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 @Entity
-public class patient {
+public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO )
     private UUID id;
