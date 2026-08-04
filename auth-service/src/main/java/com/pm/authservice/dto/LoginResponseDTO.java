@@ -1,13 +1,13 @@
 package com.pm.authservice.dto;
 
 public class LoginResponseDTO {
-    private final String tokens;
+    private final String token;
 
-    public LoginResponseDTO(String tokens) {
-        this.tokens = tokens;
+    public LoginResponseDTO(String token) {
+        this.token = token;
     }
 
-    public String getTokens() {
-        return tokens;
+    public String getToken() {
+        return token;
     }
 }
